@@ -1,0 +1,17 @@
+.Card{
+    background-color: rgb(247, 110, 86);
+    padding: 10px;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    margin: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}

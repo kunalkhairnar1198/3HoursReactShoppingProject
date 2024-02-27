@@ -1,0 +1,46 @@
+.itemCard {
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: #f8751d;
+    color: white;
+    margin: 5px;
+    font-size: 30px;
+  }
+  
+  .itemCard header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #f3975a;
+  }
+  
+  .itemCard p {
+    font-weight: bold;
+    text-align: center; 
+  }
+  
+  .itemCard button {
+    background-color: rgb(238, 149, 47);
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    font-weight: bold;
+    width: 100%;
+}
+  
+  .itemCard button:hover {
+    background-color: rgb(231, 101, 26);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .itemCard {
+      max-width: 100%;
+    }
+    .itemCard button {
+      max-width: 200px; 
+      margin: 0 auto; 
+  }
+  }
